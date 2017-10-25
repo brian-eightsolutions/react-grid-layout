@@ -67,8 +67,7 @@ release-major: build lint test
 	@$(call release,major)
 
 publish:
-	git push --tags origin HEAD:master
-	npm publish
+	npm publish --access=public
 
 define release
 	VERSION=`node -pe "require('./package.json').version"` && \

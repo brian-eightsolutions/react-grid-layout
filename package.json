@@ -1,6 +1,6 @@
 {
-  "name": "react-grid-layout",
-  "version": "0.16.0",
+  "name": "@eight-solutions/react-grid-layout",
+  "version": "0.16.0-beta.1",
   "description": "A draggable and resizable grid layout with responsive breakpoints, for React.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:STRML/react-grid-layout.git"
+    "url": "git+ssh://git@github.com/Eight-Solutions/react-grid-layout.git"
   },
   "keywords": [
     "react",
