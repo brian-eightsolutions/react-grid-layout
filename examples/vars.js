@@ -5,7 +5,7 @@ module.exports = [
     title: 'Showcase',
     source: 'showcase',
     paragraphs: [
-      'React-Grid-Layout is the only grid layout system for React. It features auto-packing, draggable and resizable ' +
+      'React-Grid-Layout is a grid layout system for React. It features auto-packing, draggable and resizable ' +
         'widgets, static widgets, a fluid layout, and separate layouts per responsive breakpoint.',
       'Try it out! Drag some boxes around, resize them, and resize the window to see the responsive breakpoints.'
     ]
@@ -124,6 +124,15 @@ module.exports = [
 			'To obtain best results, try to set your rowHeight and colWidth to match the smallest item size you have' +
 			'So if your smallest item is {w:256, h:160, x:0, y:0}, your colWidth should be 256, and your rowHeight 160.' +
 			'Alternatively, you can achieve different behaviour by using multiples of these values.'
+	]
+	},
+   {
+    title: 'Error Case',
+    source: 'error-case',
+    paragraphs: [
+      'This is an extra test case for a collision bug fixed in November 2017. When you drag 1 over 2, it should not ' +
+      'move over 3.'
+
     ]
   },
 ];
